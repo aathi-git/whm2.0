@@ -13,7 +13,7 @@ export default function Navbar() {
             <ModeToggle />
             </div>
             <Button asChild>
-                <Link href="https://aathi-git.github.io/WHM/contact.html">Let’s work togather</Link>
+                <Link href="https://aathi-git.github.io/WHM/contact.html">Let’s work together</Link>
             </Button>
         </nav>
     )
