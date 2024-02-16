@@ -35,7 +35,6 @@ export default async function Home() {
       <Hero />
       <Blogs />
       <About />
-      <Footer />
     </div>
   );
 }

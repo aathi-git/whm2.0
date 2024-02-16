@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button"
 import { ModeToggle } from "./ModeToggle";
+import Image from "next/image";
 
 export default function About() {
     return (
@@ -11,7 +12,15 @@ export default function About() {
                     WHM is not just a brand; it's a reflection of my dedication to fortify digital landscapes. Whether it's crafting intricate code or navigating the complexities of cybersecurity, I strive to embody the spirit of WHM.</p>
                 <div className="flex flex-row flex-wrap-reverse justify-center">
                     <div className="flex flex-col justify-center m-8 text-center">
-                        <img alt="" className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500" src="/logo.png" />
+                        <Image
+                            alt=""
+                            className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500"
+                            src="/logo.png"
+                            width={82} // 2cm converted to pixels (1cm = 16 pixels)
+                            height={82} // 2cm converted to pixels (1cm = 16 pixels)
+                        />
+
+
                         <p className="text-xl font-semibold leadi">Aathish</p>
                         <p className="dark:text-gray-400">Founder</p>
                     </div>
