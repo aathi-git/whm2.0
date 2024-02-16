@@ -9,7 +9,7 @@ export default function About() {
             <div className="container flex flex-col items-center justify-center p-4 mx-auto space-y-8 sm:p-10">
                 <h1 className="text-4xl font-bold leadi text-center sm:text-5xl">Our About</h1>
                 <p className="max-w-2xl text-center dark:text-gray-400">Why WHM?
-                    WHM is not just a brand; it's a reflection of my dedication to fortify digital landscapes. Whether it's crafting intricate code or navigating the complexities of cybersecurity, I strive to embody the spirit of WHM.</p>
+                    WHM is not just a brand; it&apos;s a reflection of my dedication to fortify digital landscapes. Whether it&apos;s crafting intricate code or navigating the complexities of cybersecurity, I strive to embody the spirit of WHM.</p>
                 <div className="flex flex-row flex-wrap-reverse justify-center">
                     <div className="flex flex-col justify-center m-8 text-center">
                         <Image
